@@ -81,3 +81,18 @@ table {
 .dot.active {
   background-color: red; /* Seçili noktanın rengi */
 }
+
+@media screen and (max-width: 768px) {
+    .main{
+      height: 50vh;
+    }
+    .next-button svg{
+      width: 16px;
+      height: 16px;
+    }
+    .prev-button svg{
+      width: 16px;
+      height: 16px;
+    }
+    
+}

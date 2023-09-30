@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function App() {
   const images = [
     "../public/slide-web01.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+    "../public/manzara.webp",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
